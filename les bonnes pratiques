@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Alex mac Barney">
+    <meta name="description" content="Findtheprecious is a site listing the wanted people as well as the best hunters">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Findtheprecious</title>
@@ -13,14 +15,14 @@
     <!--Nav bar-->
 
     <header>
-        <nav class="Findtheprecious"></nav>
-            <h1><a href =findThePrecious.html>FindThePrecious.com</a></h1>
-        <nav>
+        <h1><a title="Back to home" href="index.html">FindThePrecious.com</a></h1>
+        <nav> 
             <ul>
-                <li><a href="Dangerous_fellowing">Dangerous fellowship try to destroy the ring</a></li>
-                <li><a href="Fellow">Fellow</a></li>
-                <li><a href="ContactUs">Contact us</a></li>
-                <li><a href="footer">footer</a></li>
+                <li><a title="Link Dangerous fellowing" href="#Dangerous_carousel">Dangerous fellowship</a></li> 
+                <li><a title="link Fellow" href="#Fellow">Fellow</a></li>
+                <li><a title="link best hunter" href = "#BestHunter">Best hunters</a></li>
+                <li><a title="link contact us" href="#ContactUs">Contact us</a></li>
+                <li><a title="link footer" href="#footer">footer</a></li>
             </ul>
         </nav>
     </header>
@@ -40,13 +42,13 @@
         <nav>
             <ul>
                 <li>
-                    <form action="Wanted"><input type="button" value="Wanted"></form>
+                    <form action="#Wanted"><input type="button" value="Wanted"></form>
                 </li>
                 <li>
-                    <form action="Dangerous"><input type="button" value="Dangerous"></form>
+                    <form action="#Dangerous"><input type="button" value="Dangerous"></form>
                 </li>
                 <li>
-                    <form action="Everybody"> <input type="button" value="Everybody"></form>
+                    <form action="#Everybody"> <input type="button" value="Everybody"></form>
                 </li>
             </ul>
         </nav>
@@ -68,6 +70,11 @@
             <p>The dwarves are our sworn enemies, they colonize our underground, kill the unrestrained</p>
         </div>
     </section>
+
+    <!--Best hunter-->
+
+    <section id="BestHunter">
+            <h2>Best hunters</h2>
 
     <!--Contact us-->
 
